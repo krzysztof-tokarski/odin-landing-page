@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    /* background-color: #1f2937; */
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    background-color: #1f2937;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.Links span {
+    padding: 10px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color: white;
+    background-color: #1f2937;
+    padding: 50px;
+    
+}
+
+.Intro-content-image-img {
+    width: 400px;
+    height: 300px;
+}
+
+
+.Intro-content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Showcase {
+    display: flex;
+    flex-direction: column;
+}
+
+.Showcase-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.Register-window {
+    display: flex;
+    flex-direction: row;
+}
+
+.Register-window-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: white;
+    background-color: #1f2937;
+}
