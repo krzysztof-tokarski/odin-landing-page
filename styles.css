@@ -2,24 +2,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: flex-start;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
     margin: 0;
-    /* background-color: #1f2937; */
+    background-color: #1f2937;
+    color: white;
 }
 
 .Header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: flex-start;
     background-color: #1f2937;
+    margin-bottom: 50px
+    height: 90px;
 }
+
+
+.Header,
+.Intro-content,
+.Showcase,
+.Quote {
+    padding: 10px 50px;
+    justify-content: space-around;
+}
+
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .Logo-img {
@@ -33,58 +48,163 @@ a {
 
 .Content {
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
 .Intro-content {
     display: flex;
-    flex: 1;
     flex-direction: row;
+    flex: 1;
     color: white;
     background-color: #1f2937;
-    padding: 50px;
-    
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 50px;
+    margin-bottom: 100px;
 }
-
-.Intro-content-image-img {
-    width: 400px;
-    height: 300px;
-}
-
 
 .Intro-content-text {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    gap:20px;
+    font-size: 18px;
 }
+
+.Intro-content-header {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.Intro-content-image-img {
+    flex: 1;
+    margin-left: 50px;
+    width: 450px;
+    height: 250px;
+}
+
+.Register-sign-up,
+.Intro-sign-up {
+    flex: 1;
+    padding: 8px 28px;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    font-weight: 700;
+    width: 125px;
+    justify-content: center;
+}
+
+.Register-sign-up {
+    border: 3px solid white;
+    align-self: flex-end;
+}
+
+.Intro-sign-up {
+    border: 1px solid royalblue;
+}
+
 
 .Showcase {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    background-color: white;
+    color: black;
+    padding: 100px 50px;
+    padding-top:50px;
+    gap: 50px;
+}
+
+.Showcase-header {
+    font-size: 36px;
+    align-self: center;
+    font-weight: bolder;
 }
 
 .Showcase-items {
     display: flex;
+    flex: 1;
     flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
 }
 
 .Container {
     display: flex;
     flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    font-weight: 100px;
+    line-height:1.5;
 }
+
+.Sub-container {
+    border: 3px solid royalblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    align-self: center;
+}
+
 
 .Quote {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    padding: 100px 200px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    gap: 20px;
+}
+
+
+.Quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.Quote-author {
+    align-self:flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Register {
+    display: flex;
+    flex: 1;
+    color: black;
+    background-color: white;
+    padding: 100px 50px;
+    justify-content: center;
 }
 
 .Register-window {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 15px;
+    max-width: 800px;
+    max-height: 600px;
+    padding: 30px 100px;
+    align-items: flex;
+    gap: 20px;
 }
 
 .Register-window-text {
     display: flex;
+    gap: 20px;
     flex-direction: column;
+}
+
+.Register-window-header {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 
@@ -96,3 +216,5 @@ a {
     color: white;
     background-color: #1f2937;
 }
+
+
