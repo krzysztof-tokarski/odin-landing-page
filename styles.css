@@ -170,7 +170,7 @@ a {
     padding: 100px 200px;
     color: #1F2937;
     background-color: #E5E7EB;
-    gap: 20px;
+    align-content: center;
 }
 
 
@@ -206,12 +206,11 @@ a {
     max-height: 600px;
     padding: 30px 100px;
     align-items: flex;
-    gap: 20px;
+    gap: 200px;
 }
 
 .Register-window-text {
     display: flex;
-    gap: 20px;
     flex-direction: column;
 }
 
