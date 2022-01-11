@@ -22,12 +22,25 @@ body {
 }
 
 
-.Header,
 .Intro-content,
 .Showcase,
-.Quote {
+.Quote
+.Links {
     padding: 10px 50px;
     justify-content: space-around;
+}
+
+.Logo,
+.Links {
+    padding: 10px 50px;
+}
+
+.Logo {
+    margin-left: 50px;
+}
+
+.Links {
+    margin-right: 50px;
 }
 
 
